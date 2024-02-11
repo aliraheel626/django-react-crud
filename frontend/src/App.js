@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Button, Modal } from "react-bootstrap";
-const apiUrl = "http://127.0.0.1:8000/items";
+const apiUrl = "http://http://20.62.193.112:8000/items";
 
 const App = () => {
   const [items, setItems] = useState([]);
