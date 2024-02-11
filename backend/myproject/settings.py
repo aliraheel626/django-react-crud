@@ -136,3 +136,5 @@ CORS_ALLOW_CREDENTIALS = True
 
 DEBUG = True
 # APPEND_SLASH = False
+
+ALLOWED_HOSTS = ['20.62.193.112', 'localhost', '127.0.0.1']
